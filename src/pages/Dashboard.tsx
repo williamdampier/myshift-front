@@ -4,7 +4,7 @@ import { FC } from 'react';
 interface DashboardProps {}
 
 const Dashboard: FC<DashboardProps> = () => {
-  return <>Dashboard Page</>;
+  return <div>Dashboard Page</div>;
 };
 
 export default Dashboard;

@@ -1,8 +1,8 @@
-import * as React from 'react';
+import { FC } from 'react';
 
 interface ILoginProps {}
 
-const Login: React.FunctionComponent<ILoginProps> = (props) => {
+const Login: FC<ILoginProps> = (props) => {
   return <div>Login page</div>;
 };
 
