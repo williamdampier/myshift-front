@@ -29,6 +29,8 @@ export const userSlice = createSlice({
         ...initialState,
       };
     },
+    //ALL async done via thunk has to to include Pending and Fullfilled
+    //TODO: handle auth and token store voa lecalStorage.ts
   },
 });
 
