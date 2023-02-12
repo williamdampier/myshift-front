@@ -5,7 +5,7 @@ import './App.css';
 import { RootState } from './store/index';
 import { useAppDispatch, useAppSelector } from './hooks/hooks';
 import { loginUser, logoutUser } from './store/feature/userSlice';
-import AppRouter from './components/AppRouter';
+import AppRouter from './app/providers/AppRouter/AppRouter';
 
 const App: FC = () => {
   const { isAuth } = useAppSelector((state: RootState) => state.user);

@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router';
-import { useAppSelector } from '../hooks/hooks';
-import App from '../App';
-import { privateRoutes, publicRoutes } from '../routes/index';
+import { useAppSelector } from '../../../hooks/hooks';
+import App from '../../../App';
+import { privateRoutes, publicRoutes } from '../../../routes/index';
 
 const AppRouter = () => {
   const { isAuth } = useAppSelector((state) => state.user);
