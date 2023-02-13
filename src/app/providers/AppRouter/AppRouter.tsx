@@ -3,8 +3,12 @@ import { useAppSelector } from '../../../hooks/hooks';
 import App from '../../../App';
 import { privateRoutes, publicRoutes } from '../../../routes/index';
 
+
 const AppRouter = () => {
   const { isAuth } = useAppSelector((state) => state.user);
+
+
+  
   return isAuth ? (
     <Routes>
       {privateRoutes.map((route) => {
