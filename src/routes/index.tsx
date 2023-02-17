@@ -1,6 +1,6 @@
 import { Navigate } from 'react-router';
 import Dashboard from '../pages/Dashboard';
-import Login from '../pages/Login';
+import Login from '../pages/LoginPage/Login';
 
 export interface IRoute {
   path: string;
